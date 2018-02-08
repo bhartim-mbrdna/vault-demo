@@ -23,9 +23,9 @@ public class VaultDemoApplication {
     String key;
 
 	@PostConstruct
-	private void postConstruct() {
-        System.out.println("My Email is: " + email);
-        System.out.println("My password is: " + password);
-        System.out.println("My Key is: " + key);
+	public void postConstruct() {
+        System.out.println("Main: \t My Email is: " + email);
+        System.out.println("Main: \t My password is: " + password);
+        System.out.println("Main: \t My Key is: " + key);
     }
 }
